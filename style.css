@@ -1,0 +1,64 @@
+body {
+    background-color: #eee;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    margin-top: 2rem;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+
+input {
+    width: 318px;
+    height: 80px;
+    font-size: 2rem;
+    text-align: right;
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+/* CSS for buttons container */
+#cacl {
+    width: 320px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    border: 2px solid black;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.button {
+    border: 1px solid;
+    padding: 1.2rem 0;
+    text-align: center;
+    font-size: 2rem;
+    background-color: #f5ae67;
+}
+
+.cacl-btn {
+    background-color: #a8aa59;
+}
+
+#col-span {
+    grid-column: 4;
+    grid-row : 2 / span 5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button:hover {
+    background-color: #eee;
+}
